@@ -266,6 +266,8 @@ body {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background-color: var(--button-hover-background);
+	transition-duration: var(--transition-duration);
+	transition-property: color, background-color;
 }
 
 [data-section-theme="dark"] {
