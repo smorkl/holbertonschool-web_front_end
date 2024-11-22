@@ -254,36 +254,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-.nav {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  list-style: none;
-}
-
-.navbar-menu {
-  float: right;
-}
-
-.nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
-}
-
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
-.nav-link:hover {
-  color: var(--nav-item-link-hover);
-}
-
 .card-category {
 	color: var(--color-primary);
 }
@@ -329,6 +299,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-body {
     padding: var(--section-body-padding);
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.navbar-menu {
+  float: right;
+}
+
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
 
 .section-footer {
