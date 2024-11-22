@@ -4,6 +4,11 @@
 *::after {
   box-sizing: border-box;
 }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -368,10 +373,4 @@ ul.row {
   
 .footer ul {
     text-align: right;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
