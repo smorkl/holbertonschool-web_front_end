@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-nav {
+.nav {
   margin: 0;
   padding: 0;
   text-align: center;
