@@ -237,21 +237,21 @@ template {
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
   	/* Animation Variables */
-	--transition-duration: .3s;
-	--transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
+  --transition-duration: .3s;
+  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 html {
 	scroll-behavior: smooth;
-  font-size: 62.5%; 
+	font-size: 62.5%;
 }
 
 body {
-  color: var(--text-color);
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-base);
+	color: var(--text-color);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-medium);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-base);
 }
 
 .button {
@@ -332,7 +332,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-header {
     padding: var(--section-header-padding);
-
     text-align: var(--section-footer-align);
 }
 
@@ -356,7 +355,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
-
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
@@ -492,6 +490,7 @@ ul.row {
 	background-color: var(--color-white);
 	width: 0;
 	height: 0.2rem;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .nav .nav-item:hover .nav-link::before {
 	background-color: var(--color-primary);
